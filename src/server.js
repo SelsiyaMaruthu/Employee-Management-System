@@ -731,7 +731,7 @@ app.post('/verify-and-record-payment', (req, res) => {
   });
 });
 
-app.get('/payment-status',(req,res){
+app.get('/payment-status',(req,res)=>{
   
    const employeeId = req.user.id;
 
